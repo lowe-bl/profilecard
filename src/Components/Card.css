@@ -1,0 +1,117 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+    height: 500px;
+    border-radius: 20px;
+    background-color: rgb(133, 66, 192);
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 10px 10px 15px rgb(0 0 0 / 35%);
+   
+
+  
+}
+
+.profile-pic {
+    border-radius: 50%;
+    border: 2px solid #A9C9FF;
+    width: 7em;
+    height: 7em;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+h1 {
+    
+    color: rgb(27, 13, 39) ;;
+}
+
+.name {
+    color: rgb(27, 13, 39) ;
+    padding: 30px 0 50px 0;
+    font-size: 1.1rem;
+    font-weight: 400;
+    
+}
+
+h3 {
+    color: rgb(27, 13, 39) ;
+    padding: 15px 0;
+}
+
+.buttons button {
+   margin-right: 10px;
+   margin-top: 15px;
+}
+
+
+.name-btn{
+    background-color:rgb(133, 66, 192);
+    border-radius: 10px;
+    border:  1px solid #A9C9FF;
+    padding: .7em;
+    color: #A9C9FF;
+    width: 8rem;
+    font-size: 1rem;
+
+}
+
+.name-btn:hover {
+    border:  1px solid #A9C9FF;
+    background-color: #A9C9FF;
+    color: rgb(133, 66, 192) ;
+}
+
+.skills-btn {
+    background-color: rgb(133, 66, 192);
+    border-radius: 10px;
+    border:  1px solid #A9C9FF;
+    padding: .7em;
+    color: #A9C9FF;
+    width: 8rem;
+    font-size: 1rem;
+    
+}
+
+.skills-btn:hover {
+    border:  1px solid #A9C9FF;
+    background-color: #A9C9FF;
+    color: rgb(133, 66, 192) ;
+}
+
+.far {
+    color: #A9C9FF;
+    font-size: xx-large;
+    margin: 35px 0px 30px 100px;
+    
+}
+
+span {
+    color: #A9C9FF;
+    font-size: 1.7rem;
+}
+
+.fab {
+    color: rgb(27, 13, 39) ;
+    font-size: xx-large;
+    margin-right: 15px;
+    
+}
+.fab:hover {
+    color: #A9C9FF;
+
+}
+
+.far:hover {
+    color: rgb(27, 13, 39) ;
+    
+}
+
+.text {
+    color: #A9C9FF;
+}
